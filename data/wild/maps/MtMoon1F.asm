@@ -8,7 +8,7 @@ MtMoon1FWildMons:
 	db 10, ZUBAT
 	db 10, GEODUDE
 	db  8, PARAS
-	db 11, ZUBAT
+	db 12, SANDSHREW
 	db  8, CLEFAIRY
 	end_grass_wildmons
 

@@ -8,6 +8,7 @@ IF DEF(_RED)
 	db 33, NIDORINO
 	db 26, EXEGGCUTE
 	db 25, NIDORAN_F
+	db 31, PINSIR
 ENDC
 IF DEF(_BLUE)
 	db 25, NIDORAN_F
@@ -17,8 +18,8 @@ IF DEF(_BLUE)
 	db 33, NIDORINA
 	db 26, EXEGGCUTE
 	db 25, NIDORAN_M
+	db 31, SCYTHER
 ENDC
-	db 31, VENOMOTH
 	db 26, TAUROS
 	db 28, KANGASKHAN
 	end_grass_wildmons

@@ -9,7 +9,7 @@ IF DEF(_RED)
 	db 40, WEEZING
 	db 34, PONYTA
 	db 35, GRIMER
-	db 42, WEEZING
+	db 38, MAGMAR
 	db 42, MUK
 ENDC
 IF DEF(_BLUE)

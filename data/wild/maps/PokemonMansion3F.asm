@@ -5,7 +5,7 @@ IF DEF(_RED)
 	db 33, VULPIX
 	db 35, KOFFING
 	db 32, PONYTA
-	db 34, PONYTA
+	db 34, MAGMAR
 	db 40, WEEZING
 	db 34, GRIMER
 	db 38, WEEZING

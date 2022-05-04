@@ -9,7 +9,6 @@ IF DEF(_RED)
 	db 31, SEEL
 	db 31, SLOWPOKE
 	db 29, SEEL
-	db 39, SLOWBRO
 ENDC
 IF DEF(_BLUE)
 	db 31, KRABBY
@@ -20,8 +19,8 @@ IF DEF(_BLUE)
 	db 31, SEEL
 	db 31, PSYDUCK
 	db 29, SEEL
-	db 39, GOLDUCK
 ENDC
+	db 39, JYNX
 	db 32, GOLBAT
 	end_grass_wildmons
 

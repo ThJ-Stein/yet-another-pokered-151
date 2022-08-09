@@ -1,14 +1,16 @@
-# Pokémon Red and Blue [![Build Status][ci-badge]][ci]
+# Yet another Pokémon Red and Blue 151 hack
 
-This is a disassembly of Pokémon Red and Blue.
+This is a hobby project that is built upon the disassembly of Pokémon Red and Blue. Its goal is to allow the player to complete their Pokedex in a single playthrough without requiring them to trade with other players. It will also not require the use of glitches to capture Mew, though it will still be possible.
+
+It will leave wild encounters unchanged as much as possible - wherever possible, encounters are copied from Pokemon Yellow, Gold, Silver, Crystal, Fire Red, Leaf Green, Heart Gold or Soul Silver. Let's Go Pikachu and Let's Go Eevee are used only as an absolute last resort.
 
 It builds the following ROMs:
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
-- dmgapae0.e69.patch `sha1: 0fb5f743696adfe1dbb2e062111f08f9bc5a293a`
-- dmgapee0.e68.patch `sha1: ed4be94dc29c64271942c87f2157bca9ca1019c7`
+- Pokemon Red (UE) [S][!].gb
+- Pokemon Blue (UE) [S][!].gb
+- BLUEMONS.GB (debug build)
+- dmgapae0.e69.patch
+- dmgapee0.e68.patch
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 

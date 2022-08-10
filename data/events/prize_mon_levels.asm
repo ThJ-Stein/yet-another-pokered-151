@@ -5,7 +5,7 @@ IF DEF(_RED)
 	db EEVEE, 20
 
 	db DRATINI,  18
-	db SCYTHER,  25
+	db PINSIR,  25
 	db PORYGON,  26
 ENDC
 IF DEF(_BLUE)
@@ -13,7 +13,7 @@ IF DEF(_BLUE)
 	db CLEFAIRY, 12
 	db EEVEE, 20
 
-	db PINSIR,   20
+	db SCYTHER,   20
 	db DRATINI,  24
 	db PORYGON,  18
 ENDC

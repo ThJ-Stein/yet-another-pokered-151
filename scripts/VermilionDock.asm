@@ -312,7 +312,7 @@ TruckCheck:
 	call CopyVideoData
 	ld hl, TruckOAMTable
 	ld bc, $20
-	ld de, wOAMBuffer + $20
+	ld de, wShadowOAM + $20
 	call CopyData
 	ld a, $c
 	ld [wNewTileBlockID], a ; used to be wd09f
@@ -324,7 +324,7 @@ TruckCheck:
 	ld b, 32
 	ld de, 4
 .movingtruck
-	ld hl, wOAMBuffer + $21
+	ld hl, wShadowOAM + $21
 	ld a, 8
 .movingtruck2
 	dec [hl]

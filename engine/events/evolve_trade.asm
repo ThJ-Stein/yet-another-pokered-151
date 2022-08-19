@@ -23,8 +23,16 @@ EvolveTradeMon:
 	cp "G"
 	jr z, .ok
 
+	; KADABRA
+	cp "K"
+	jr z, .ok
+
+	; MACHOKE
+	cp "M"
+	jr z, .ok
+
 	; "SPECTRE" (HAUNTER)
-	cp "S"
+	cp "H"
 	ret nz
 	ld a, [wInGameTradeReceiveMonName + 1]
 	cp "P"

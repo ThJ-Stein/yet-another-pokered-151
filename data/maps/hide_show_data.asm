@@ -66,7 +66,7 @@ MapHSPointers:
 	dw NoHS
 	dw MtMoonB2FHS
 	dw NoHS
-	dw NoHS
+	dw CeruleanTradeHouseHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -413,6 +413,8 @@ MtMoonB2FHS:
 	db MT_MOON_B2F, $07, SHOW
 	db MT_MOON_B2F, $08, SHOW
 	db MT_MOON_B2F, $09, SHOW
+CeruleanTradeHouseHS:
+	db CERULEAN_TRADE_HOUSE, $04, SHOW
 SSAnne2FHS:
 	db SS_ANNE_2F, $02, HIDE
 SSAnne1FRoomsHS:

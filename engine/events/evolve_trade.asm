@@ -17,32 +17,6 @@ EvolveTradeMon:
 
 ; This was fixed in Yellow.
 
-	ld a, [wInGameTradeReceiveMonName]
-
-	; GRAVELER
-	cp "G"
-	jr z, .ok
-
-	; KADABRA
-	cp "K"
-	jr z, .ok
-
-	; MACHOKE
-	cp "M"
-	jr z, .ok
-
-	; HAUNTER
-	cp "H"
-	jr z, .ok
-
-
-	; "SPECTRE" (HAUNTER)
-	cp "S"
-	ret nz
-	ld a, [wInGameTradeReceiveMonName + 1]
-	cp "P"
-	ret nz
-
 .ok
 	ld a, [wPartyCount]
 	dec a

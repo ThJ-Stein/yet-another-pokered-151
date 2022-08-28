@@ -15,5 +15,7 @@ CeruleanCave2F_Object:
 	object_event 29,  9, SPRITE_POKE_BALL, STAY, NONE, 1, PP_UP
 	object_event  4, 15, SPRITE_POKE_BALL, STAY, NONE, 2, ULTRA_BALL
 	object_event 13,  6, SPRITE_POKE_BALL, STAY, NONE, 3, FULL_RESTORE
+	object_event 19, 15, SPRITE_FOSSIL, STAY, NONE, 4, HELIX_FOSSIL
+	object_event 21,  9, SPRITE_FOSSIL, STAY, NONE, 5, DOME_FOSSIL
 
 	def_warps_to CERULEAN_CAVE_2F

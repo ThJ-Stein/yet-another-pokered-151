@@ -253,6 +253,9 @@ MtMoon3Text6:
 	ld [wMissableObjectIndex], a
 	predef HideObject
 	SetEvent EVENT_GOT_DOME_FOSSIL
+	ld a, HS_CERULEAN_CAVE_2F_DOME_FOSSIL
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, $4
 	ld [wMtMoonB2FCurScript], a
 	ld [wCurMapScript], a
@@ -281,6 +284,9 @@ MtMoon3Text7:
 	ld [wMissableObjectIndex], a
 	predef HideObject
 	SetEvent EVENT_GOT_HELIX_FOSSIL
+	ld a, HS_CERULEAN_CAVE_2F_HELIX_FOSSIL
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, $4
 	ld [wMtMoonB2FCurScript], a
 	ld [wCurMapScript], a

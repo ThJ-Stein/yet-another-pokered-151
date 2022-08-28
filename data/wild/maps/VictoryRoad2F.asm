@@ -9,7 +9,7 @@ VictoryRoad2FWildMons:
 	db 41, MACHOKE
 	db 40, GOLBAT
 	db 40, MAROWAK
-	db 43, GRAVELER
+	db 43, HITMONLEE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

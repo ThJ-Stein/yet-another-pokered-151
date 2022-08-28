@@ -9,12 +9,7 @@ NoThanksText:
 PrizeMenuMon1Entries:
 	db ABRA
 	db CLEFAIRY
-IF DEF(_RED)
-	db NIDORINA
-ENDC
-IF DEF(_BLUE)
-	db NIDORINO
-ENDC
+	db EEVEE
 	db "@"
 
 PrizeMenuMon1Cost:
@@ -32,10 +27,10 @@ ENDC
 PrizeMenuMon2Entries:
 IF DEF(_RED)
 	db DRATINI
-	db SCYTHER
+	db PINSIR
 ENDC
 IF DEF(_BLUE)
-	db PINSIR
+	db SCYTHER
 	db DRATINI
 ENDC
 	db PORYGON

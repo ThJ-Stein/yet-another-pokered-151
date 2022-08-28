@@ -9,7 +9,7 @@ VictoryRoad3FWildMons:
 	db 43, GRAVELER
 	db 41, GOLBAT
 	db 42, MACHOKE
-	db 45, MACHOKE
+	db 45, HITMONCHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

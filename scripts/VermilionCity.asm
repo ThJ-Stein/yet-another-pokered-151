@@ -50,8 +50,12 @@ VermilionCityScript0:
 	ld a, $3
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
+	ld a, [wObtainedBadges] ; ship returns after obtaining every badge
+	bit 7, a
+	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .shipHasDeparted
+.default
 	ld b, S_S_TICKET
 	predef GetQuantityOfItemInBag
 	ld a, b
@@ -156,8 +160,12 @@ VermilionCityTextSSAnneDeparted:
 
 VermilionCityText3:
 	text_asm
+	ld a, [wObtainedBadges]
+	bit 7, a ; after obtaining every badge the ship returns
+	jr nz, .default
 	CheckEvent EVENT_SS_ANNE_LEFT
 	jr nz, .shipHasDeparted
+.default
 	ld a, [wSpritePlayerStateData1FacingDirection]
 	cp SPRITE_FACING_RIGHT
 	jr z, .greetPlayer
@@ -234,7 +242,22 @@ VermilionCityText14:
 	text_end
 
 VermilionCityText6:
+	text_asm
+	ld a, [wObtainedBadges]
+	bit 7, a ; after obtaining every badge the ship returns
+	jr z, .default
+	ld hl, VermilionCityText15
+	ret
+.default
+	ld hl, VermilionCityText6get
+	ret
+
+VermilionCityText6get:
 	text_far _VermilionCityText6
+	text_end
+
+VermilionCityText15:
+	text_far _VermilionCityText15
 	text_end
 
 VermilionCityText7:

@@ -1,5 +1,5 @@
-DEF HIDE EQU $11
-DEF SHOW EQU $15
+HIDE EQU $11
+SHOW EQU $15
 
 ; MissableObjects indexes (see data/maps/hide_show_data.asm)
 ; this is a list of the sprites that can be enabled/disabled during the game
@@ -243,4 +243,6 @@ DEF SHOW EQU $15
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E1
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
 	const HS_ARTICUNO                      ; E3 X
-DEF NUM_HS_OBJECTS EQU const_value
+	const HS_MEW_VERMILION_DOCK            ; E4 
+
+NUM_HS_OBJECTS EQU const_value

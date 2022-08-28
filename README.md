@@ -4,6 +4,8 @@ This is a hobby project that is built upon the disassembly of Pokémon Red and B
 
 It will leave wild encounters unchanged as much as possible - wherever possible, encounters are copied from Pokemon Yellow, Gold, Silver, Crystal, Fire Red, Leaf Green, Heart Gold or Soul Silver. Let's Go Pikachu and Let's Go Eevee are used only as an absolute last resort.
 
+Many thanks to reddit user u/vortiene for allowing me to use their implementation of return of the SS Anne and hiding Mew under the truck! Check out their project [Pokémon PureRGB](https://github.com/Vortyne/pureRGB)
+
 It builds the following ROMs:
 
 - Pokemon Red (UE) [S][!].gb

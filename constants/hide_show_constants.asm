@@ -19,6 +19,7 @@ DEF SHOW EQU $15
 	const HS_CERULEAN_GUARD_1              ; 07
 	const HS_CERULEAN_CAVE_GUY             ; 08
 	const HS_CERULEAN_GUARD_2              ; 09
+	const HS_VERMILION_CITY_GUARD		   ; actual 0A
 	const HS_SAFFRON_CITY_1                ; 0A
 	const HS_SAFFRON_CITY_2                ; 0B
 	const HS_SAFFRON_CITY_3                ; 0C
@@ -47,6 +48,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_22_RIVAL_2              ; 23
 	const HS_NUGGET_BRIDGE_GUY             ; 24
 	const HS_ROUTE_24_ITEM                 ; 25 X
+	const HS_ROUTE_24_DAMIAN
 	const HS_ROUTE_25_ITEM                 ; 26 X
 	const HS_DAISY_SITTING                 ; 27
 	const HS_DAISY_WALKING                 ; 28
@@ -122,6 +124,8 @@ DEF SHOW EQU $15
 	const HS_MT_MOON_B2F_FOSSIL_2          ; 6E
 	const HS_MT_MOON_B2F_ITEM_1            ; 6F X
 	const HS_MT_MOON_B2F_ITEM_2            ; 70 X
+	const HS_CERULEAN_MELANIE
+	const HS_CERULEAN_BULBASAUR            ; actual 71
 	const HS_SS_ANNE_2F_RIVAL              ; 71
 	const HS_SS_ANNE_1F_ROOMS_ITEM         ; 72 X
 	const HS_SS_ANNE_2F_ROOMS_ITEM_1       ; 73 X

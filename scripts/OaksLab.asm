@@ -894,7 +894,7 @@ OaksLabMonChoiceMenu:
 	call YesNoChoice ; yes/no menu
 	ld a, [wCurrentMenuItem]
 	and a
-	jr nz, OaksLabMonChoiceEnd
+	jp nz, OaksLabMonChoiceEnd
 	ld a, [wcf91]
 	ld [wPlayerStarter], a
 	ld [wd11e], a
@@ -902,14 +902,26 @@ OaksLabMonChoiceMenu:
 	ld a, [wSpriteIndex]
 	cp $2
 	jr nz, .asm_1d1db
+	ld a, HS_ROUTE_24_DAMIAN
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_STARTER_BALL_1
 	jr .asm_1d1e5
 .asm_1d1db
 	cp $3
 	jr nz, .asm_1d1e3
+	ld a, HS_VERMILION_CITY_GUARD
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_STARTER_BALL_2
 	jr .asm_1d1e5
 .asm_1d1e3
+	ld a, HS_CERULEAN_MELANIE
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_CERULEAN_BULBASAUR
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_STARTER_BALL_3
 .asm_1d1e5
 	ld [wMissableObjectIndex], a

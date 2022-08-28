@@ -8,7 +8,7 @@ MapHSPointers:
 	dw PewterCityHS
 	dw CeruleanCityHS
 	dw NoHS
-	dw NoHS
+	dw VermilionCityHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -66,7 +66,7 @@ MapHSPointers:
 	dw NoHS
 	dw MtMoonB2FHS
 	dw NoHS
-	dw NoHS
+	dw CeruleanTradeHouseHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -276,6 +276,8 @@ CeruleanCityHS:
 	db CERULEAN_CITY, $06, HIDE
 	db CERULEAN_CITY, $0A, SHOW
 	db CERULEAN_CITY, $0B, SHOW
+VermilionCityHS:
+	db VERMILION_CITY, $07, SHOW
 SaffronCityHS:
 	db SAFFRON_CITY, $01, SHOW
 	db SAFFRON_CITY, $02, SHOW
@@ -313,6 +315,7 @@ Route22HS:
 Route24HS:
 	db ROUTE_24, $01, SHOW
 	db ROUTE_24, $08, SHOW
+	db ROUTE_24, $09, SHOW
 Route25HS:
 	db ROUTE_25, $0A, SHOW
 BluesHouseHS:
@@ -413,6 +416,9 @@ MtMoonB2FHS:
 	db MT_MOON_B2F, $07, SHOW
 	db MT_MOON_B2F, $08, SHOW
 	db MT_MOON_B2F, $09, SHOW
+CeruleanTradeHouseHS:
+	db CERULEAN_TRADE_HOUSE, $03, SHOW
+	db CERULEAN_TRADE_HOUSE, $04, SHOW
 SSAnne2FHS:
 	db SS_ANNE_2F, $02, HIDE
 SSAnne1FRoomsHS:
